@@ -9,6 +9,7 @@ fi
 echo "Installing App Store Applications..."
 
 apps=(
+  1333542190 # 1Password 7
   404705039 # Graphic
   1295203466 # Microsoft Remote Desktop
   407963104 # Pixelmator

@@ -1,7 +1,6 @@
 #!/bin/bash
 
 apps=(
-  1password
   android-studio
   github
   google-chrome
