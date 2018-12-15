@@ -12,6 +12,9 @@ brew upgrade --all
 echo "Installing Command Line Tools..."
 
 apps=(
+  coreutils
+  moreutils
+  findutils
   git
   nvm
   wget

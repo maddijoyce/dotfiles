@@ -6,7 +6,7 @@ ZSH_THEME="nick-modified"
 ENABLE_CORRECTION="true"
 COMPLETION_WAITING_DOTS="true"
 
-'plugins=(node npm yarn history zsh-syntax-highlighting)'
+plugins=(node npm yarn history zsh-syntax-highlighting)
 
 # brew tab completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then

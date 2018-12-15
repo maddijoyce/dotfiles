@@ -1,6 +1,6 @@
 #!/bin/bash
 
-expected_dir="~/Developer/dotfiles"
+expected_dir="$HOME/Developer/dotfiles"
 export dotfiles_dir=$(pwd)
 
 if [ $dotfiles_dir != $expected_dir ]; then
@@ -11,7 +11,8 @@ fi
 
 # Install Fonts
 echo "Installing Fonts..."
-cp "$dotfiles_dir/fonts/*" "~/Library/Fonts/"
+sudo cp $dotfiles_dir/fonts/* "/Library/Fonts/"
+sudo cp -r $dotfiles_dir/osx/MJ.bundle "/Library/Keyboard Layouts/MJ.bundle"
 
 $dotfiles_dir/install/shell.sh
 $dotfiles_dir/install/osx.sh

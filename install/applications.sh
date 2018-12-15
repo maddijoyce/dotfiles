@@ -21,7 +21,7 @@ echo "Installing Applications..."
 
 brew cask install "${apps[@]}"
 
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv
 
 $dotfiles_dir/applications/code/setup.sh
 $dotfiles_dir/applications/iterm/setup.sh

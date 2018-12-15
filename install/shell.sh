@@ -3,6 +3,7 @@
 shell_files=(
   ackrc
   curlrc
+  dircolors
 
   shell_aliases
   shell_config
