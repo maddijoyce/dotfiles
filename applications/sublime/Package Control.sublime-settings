@@ -1,0 +1,17 @@
+{
+    "installed_packages":
+    [
+        "A File Icon",
+        "Babel",
+        "DA CS",
+        "DA UI",
+        "FuzzyFilePath",
+        "GraphQL",
+        "Package Control",
+        "SideBarEnhancements",
+        "SublimeLinter",
+        "SublimeLinter-eslint",
+        "TypeScript Syntax",
+        "WordCount"
+    ]
+}

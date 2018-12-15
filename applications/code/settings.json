@@ -1,0 +1,32 @@
+{
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "on",
+  "workbench.colorTheme": "Bluloco Dark",
+  "git.autofetch": true,
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "window.zoomLevel": 0,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "tslint.autoFixOnSave": true,
+  "[velocity]": {
+    "editor.tabSize": 2
+  },
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "git.enableSmartCommit": true,
+  "arduino.commandPath": "Contents/MacOS/Arduino",
+  "arduino.path": "/Applications",
+  "arduino.skipHeaderProvider": false,
+  "arduino.logLevel": "verbose",
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true
+}
