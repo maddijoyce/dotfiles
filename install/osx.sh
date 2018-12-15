@@ -216,6 +216,8 @@ defaults write com.apple.dock show-process-indicators -bool true
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
 
+cp -r $dotfiles_dir/osx/MJ.bundle "/Library/Keyboard Layouts/MJ.bundle"
+
 ###############################################################################
 # Do some clean up work.
 ###############################################################################
