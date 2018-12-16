@@ -25,3 +25,4 @@ brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch 
 $dotfiles_dir/applications/code/setup.sh
 $dotfiles_dir/applications/iterm/setup.sh
 $dotfiles_dir/applications/sublime/setup.sh
+$dotfiles_dir/applications/viscosity/setup.sh

@@ -2,6 +2,7 @@
 
 expected_dir="$HOME/Developer/dotfiles"
 export dotfiles_dir=$(pwd)
+export cloud_dir="$HOME/Library/Mobile Documents/com~apple~CloudDocs/SDotfiles"
 
 if [ $dotfiles_dir != $expected_dir ]; then
   echo "Running in $dotfiles_dir not $expected_dir"
@@ -9,9 +10,12 @@ if [ $dotfiles_dir != $expected_dir ]; then
   exit 1
 fi
 
-# Install Fonts
+echo "I Think We're Gonna Need Some Admin..."
+sudo -v
+
 echo "Installing Fonts..."
 sudo cp $dotfiles_dir/fonts/* "/Library/Fonts/"
+echo "Installing Keyboard..."
 sudo cp -r $dotfiles_dir/osx/MJ.bundle "/Library/Keyboard Layouts/MJ.bundle"
 
 $dotfiles_dir/install/shell.sh

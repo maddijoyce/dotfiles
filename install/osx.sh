@@ -103,6 +103,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadCorner
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
 defaults -currentHost write -g com.apple.trackpad.trackpadCornerClickBehavior -int 1
 defaults -currentHost write com.apple.trackpad.enableSecondaryClick -bool true
+defaults -currentHost write -globalDomain com.apple.mouse.tapBehavior -int 1
 
 # Set a really fast keyboard repeat rate.
 defaults write -g KeyRepeat -int 0
