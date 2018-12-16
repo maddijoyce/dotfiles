@@ -11,4 +11,5 @@ cp_p () {
 
 mjgh () {
   git clone git@github.com:maddijoyce/$1.git
+  cd $1
 }
