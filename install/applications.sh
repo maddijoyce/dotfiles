@@ -5,6 +5,7 @@ apps=(
   github
   google-chrome
   iterm2
+  react-native-debugger
   sequel-pro
   slack
   spectacle

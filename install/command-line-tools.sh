@@ -6,6 +6,11 @@ then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+if test $(which xcode)
+then
+  sudo xcodebuild -license accept
+fi
+
 brew update
 brew upgrade --all
 
@@ -22,6 +27,7 @@ apps=(
   zsh
   mas
   direnv
+  the_silver_searcher
 )
 
 brew install "${apps[@]}"
