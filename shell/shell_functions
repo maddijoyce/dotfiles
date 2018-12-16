@@ -8,3 +8,7 @@ chpwd_functions=( auto-ls $chpwd_functions )
 cp_p () {
   rsync -WavP --human-readable --progress $1 $2
 }
+
+mjgh () {
+  git clone git@github.com:maddijoyce/$1.git
+}
