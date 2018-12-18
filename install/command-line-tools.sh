@@ -28,6 +28,7 @@ apps=(
   mas
   direnv
   the_silver_searcher
+  jq
 )
 
 brew install "${apps[@]}"
