@@ -1,46 +1,46 @@
-# #!/bin/bash
+#!/bin/bash
 
-# shell_files=(
-#   ackrc
-#   curlrc
-#   dircolors
+shell_files=(
+  ackrc
+  curlrc
+  dircolors
 
-#   shell_aliases
-#   shell_config
-#   shell_exports
-#   shell_functions
-#   zshrc
-# )
+  shell_aliases
+  shell_config
+  shell_exports
+  shell_functions
+  zshrc
+)
 
-# echo "Linking Shell Files..."
+echo "Linking Shell Files..."
 
-# for i in ${shell_files[@]}; do
-#   sourceFile="$dotfiles_dir/shell/$i"
-#   targetFile="$HOME/.$i"
+for i in ${shell_files[@]}; do
+  sourceFile="$dotfiles_dir/shell/$i"
+  targetFile="$HOME/.$i"
 
-#   if [ ! -e "$targetFile" ]; then
-#     echo "- Linking $i"
-#     ln -fs $sourceFile $targetFile
-#   fi
-# done
+  if [ ! -e "$targetFile" ]; then
+    echo "- Linking $i"
+    ln -fs $sourceFile $targetFile
+  fi
+done
 
-# git_files=(
-#   gitattributes
-#   gitconfig
-#   gitignore
-# )
+git_files=(
+  gitattributes
+  gitconfig
+  gitignore
+)
 
-# echo "Linking Git Files..."
+echo "Linking Git Files..."
 
-# for i in ${git_files[@]}; do
-#   sourceFile="$dotfiles_dir/git/$i"
-#   targetFile="$HOME/.$i"
+for i in ${git_files[@]}; do
+  sourceFile="$dotfiles_dir/git/$i"
+  targetFile="$HOME/.$i"
 
-#   if [ ! -e "$targetFile" ]; then
-#     echo "- Linking $i"
-#     ln -fs $sourceFile $targetFile
-#   fi
-# done
+  if [ ! -e "$targetFile" ]; then
+    echo "- Linking $i"
+    ln -fs $sourceFile $targetFile
+  fi
+done
 
 secure_files=(
   aws
