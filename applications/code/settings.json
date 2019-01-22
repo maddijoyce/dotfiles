@@ -28,5 +28,6 @@
   "arduino.skipHeaderProvider": false,
   "arduino.logLevel": "verbose",
   "breadcrumbs.enabled": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 22
 }

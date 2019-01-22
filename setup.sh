@@ -18,7 +18,6 @@ sudo cp $dotfiles_dir/fonts/* "/Library/Fonts/"
 echo "Installing Keyboard..."
 sudo cp -r $dotfiles_dir/osx/MJ.bundle "/Library/Keyboard Layouts/MJ.bundle"
 
-$dotfiles_dir/install/shell.sh
 $dotfiles_dir/install/osx.sh
 
 $dotfiles_dir/install/command-line-tools.sh
@@ -26,3 +25,5 @@ $dotfiles_dir/install/applications.sh
 $dotfiles_dir/install/app-store.sh
 
 $dotfiles_dir/install/zsh.sh
+
+$dotfiles_dir/install/shell.sh
