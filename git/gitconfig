@@ -256,5 +256,5 @@
 [fetch]
         prune = true
 [user]
-  name = Maddi Joyce
-  email = maddi@maddijoyce
+	name = Maddi Joyce
+	email = maddi@maddijoyce.com

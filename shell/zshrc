@@ -44,3 +44,12 @@ source $ZSH/oh-my-zsh.sh
 
 unalias d
 compdef '_files -W $HOME/Developer' d
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/maddi/Developer/gettingappy/node_modules/tabtab/.completions/slss.zsh
