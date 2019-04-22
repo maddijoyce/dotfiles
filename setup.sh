@@ -16,7 +16,7 @@ sudo -v
 echo "Installing Fonts..."
 sudo cp $dotfiles_dir/fonts/* "/Library/Fonts/"
 echo "Installing Keyboard..."
-sudo cp -r $dotfiles_dir/osx/MJ.bundle "/Library/Keyboard Layouts/MJ.bundle"
+sudo cp -r "$dotfiles_dir/osx/Programmer Dvorak.bundle" "/Library/Keyboard Layouts/Programmer Dvorak.bundle"
 
 $dotfiles_dir/install/osx.sh
 
