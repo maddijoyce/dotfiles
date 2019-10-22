@@ -49,6 +49,7 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export ICLOUD="$HOME/Library/Mobile Documents/com~apple~CloudDocs/SDotfiles"
 
 export COMMUNICATE_DEVELOPER_FLAG=MJ
+export COMMUNICATE_API_HOST=http://10.0.1.37:8080
 export COMM_PATH=~/Developer/communicate
 source $COMM_PATH/bin/bash_helpers >/dev/null 2>&1
 export CBOT_PATH=~/Developer/bot
