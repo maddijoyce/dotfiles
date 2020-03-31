@@ -41,6 +41,3 @@ done;
 unset file;
 
 source $ZSH/oh-my-zsh.sh
-
-unalias d
-compdef '_files -W $HOME/Developer' d

@@ -16,10 +16,6 @@ mjgh () {
   cd $1
 }
 
-d () {
-  cd $HOME/Developer/$1
-}
-
 function butt {
   (cd ~/developer/buttercup && npm run loop:$1 "${@:2}")
 }
