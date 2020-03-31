@@ -1,3 +1,5 @@
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 auto-ls () {
   emulate -L zsh;
   # explicit sexy ls'ing as aliases arent honored in here.
@@ -16,4 +18,25 @@ mjgh () {
 
 d () {
   cd $HOME/Developer/$1
+}
+
+function butt {
+  (cd ~/developer/buttercup && npm run loop:$1 "${@:2}")
+}
+
+function coma {
+  (cd ~/Developer/coma && npm run coma:$1 "${@:2}")
+}
+
+autoload -U add-zsh-hook
+
+export COMMUNICATE_DEVELOPER_FLAG=MJ
+export COMMUNICATE_API_HOST=http://10.0.1.37:8080
+
+export CBOT_PATH=~/Developer/bot
+source $CBOT_PATH/bin/bash_helpers >/dev/null 2>&1
+
+export COMM_PATH=~/Developer/communicate
+function c {
+  (cd -q $COMM_PATH && npm run loop:$1 "${@:2}")
 }

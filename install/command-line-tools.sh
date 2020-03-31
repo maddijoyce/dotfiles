@@ -29,6 +29,7 @@ apps=(
   direnv
   the_silver_searcher
   jq
+  autojump
 )
 
 brew install "${apps[@]}"
